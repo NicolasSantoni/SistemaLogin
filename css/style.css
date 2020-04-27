@@ -1,0 +1,110 @@
+*{
+  box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+@font-face {
+  font-family: Tommy;
+  src: url(../fonts/TommySoft/TommySoft.otf);
+}
+@font-face {
+  font-family: TommyBold;
+  src: url(../fonts/TommySoft/TommyBold.otf);
+}
+body{
+  background-color: #0C0C0E;
+}
+header{
+  height: 230px;
+  background-color: #1E1E22;
+}
+header img{
+  display: none;
+}
+.titulo h1{
+  text-align: center;
+  width: 80%;
+  font-family: TommyBold;
+  font-size: 70px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #0C7097;
+  padding-top: 30px;
+}
+.login{
+  text-align: center;
+  font-family: Tommy;
+  color: #0C7097;
+  font-size: 35px;
+  margin-top: 50px;
+}
+.login p{
+  margin-top: 15px;
+}
+.login input{
+  margin-top: 15px;
+  border-radius: 50px;
+  width: 70%;
+  font-size: 50px;
+}
+.login button{
+  font-size: 60px;
+  margin-top: 40px;
+  width: 50%;
+  border-radius: 50px;
+  background-color: #0C7097;
+  color: #FFFFFF;
+  font-family: TommyBold;
+}
+p{
+  text-align: center;
+  color: #0C7097;
+  font-size: 70px;
+  margin-top: 10px;
+  font-family: Tommy;
+}
+#isso{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 40px;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 50px;
+  background-color: #0C7097;
+  font-family: TommyBold;
+}
+a{
+  text-decoration:none;
+  color: #FFFFFF;
+}
+@media only screen and (min-width: 1024px) {
+  *{
+    box-sizing:border-box;
+  	margin:0;
+  	padding:0;
+  }
+  header{
+    height: 380px;
+  }
+  #h1{
+    font-size: 50px;
+    width: 60%;
+    padding-top: 100px;
+  }
+  header img{
+    display: block;
+    width: 20%;
+    margin-top: 30px;
+
+  }
+  #img1{
+    float: left;
+    margin-left: 15px;
+    max-height: 340px;
+  }
+  #img2{
+    float: right;
+    margin-right: 15px;
+    margin-top: -195px;
+  }
+}
